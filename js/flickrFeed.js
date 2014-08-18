@@ -26,8 +26,6 @@ $(document).ready(function(){
                 // need to manually change the image size in URL to get full size
                 var largeSizeImage = defaultSizeImage.replace("_m.jpg", "_b.jpg");
 
-
-
                 $(this.el).append('<article class="item thumb" data-width="282">'
                                     + '<h2>' + imageTitle + '</h2>'
                                     + '<a href="'+  largeSizeImage +'">'
